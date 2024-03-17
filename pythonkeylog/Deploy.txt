@@ -1,0 +1,18 @@
+Stealthily Running our Python Keylogger
+As you can see, the last method of running our code wasn’t very stealthy, so to make it a bit more effective we can employ the following tricks.
+
+On Linux/Unix:
+To run the code without anyone noticing, you can simply run it as:
+
+$ nohup python3 keylogger.py &
+
+This will let the code run even after the terminal closes while still recording the keystrokes !
+
+On Windows :
+
+On Windows, you can simply rename the file extension from .py to .pyw and then double click on the file to run it without a terminal popping up. The program then runs in the background, logging every key press henceforth.
+
+Conclusion:
+Hence we coded a short yet effective Python Keylogger to record a victim’s keystrokes. However, it is strictly for educational purposes and it shouldn’t be employed for malicious purposes.
+
+References – Pynput module official documentation
